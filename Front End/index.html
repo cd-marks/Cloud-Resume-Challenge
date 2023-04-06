@@ -1,81 +1,19 @@
 <html>
-<style>
-    body {
-        background-color: lightgrey;
-        overflow-y: scroll;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-    }
-    
-    #content {
-        padding: 10px 80px;
-        margin: 40px auto;
-        display: block;
-        background: white;
-        border: solid #666;
-        border-width: 4px 0 2px 0;
-    }
-
-    #resume-size {
-        width: 63em;
-        *width: 61em;
-    }
-
-    .x-scaling {
-        margin: auto;
-        width: 30em;
-        *width: 30em;
-    }
-
-    h1 {
-        font-family: 'Proxima-Nova', sans-serif;
-        font-size: 40px;
-        font-weight: normal;
-        margin-bottom: 6px;
-    }
-
-    h2 {
-        font-family: 'Proxima-Nova', sans-serif;
-        font-size: 21px;
-        color: #6d9eeb;
-        margin-bottom: 1.15;
-    }
-
-    hr {
-        background-color: #6d9eeb;
-        height: 6.72px;
-    }
-
-    p1 {
-        font-family: 'Proxima-Nova', sans-serif;
-        font-size: 18px;
-    }
-
-    p2 {
-        font-family: 'Proxima-Nova', sans-serif;
-        font-size: 16px;
-    }
-
-    ul {
-        margin-top: 1.15;
-    }
-
-    .alignright {
-        float: right;
-        color: #666666;
-        font-weight: bold;
-    }
-</style>
-
+<head>
+    <link rel="stylesheet" type="text/css" href="..\css\style.css">
+    <script src='../js/visitorCounter.js'></script>
+</head>
 <body>
   <div id="resume-size"  class="x-scaling">
   <div id="content">
+    
     <h1>Christian Marks</h1>
     <hr>
     <p2>
         Gettysburg, PA - 
-        <a href="mailto:cdmarks13@gmail.com">Send me an Email</a> - 
-        <a href="https://www.linkedin.com/in/this-is-christian-marks/">Check out my LinkedIn</a>
+        <a href="mailto:cdmarks13@gmail.com">Email Me</a> - 
+        <a href="https://www.linkedin.com/in/this-is-christian-marks/">LinkedIn</a> - 
+        <a href="https://github.com/cd-marks">GitHub</a>
     </p2>
     <br>
 
@@ -145,7 +83,9 @@
     <h2>Education</h2>
         <p1><b>University of Maryland, College Park</b> - <i>B.S. Mechanical Engineering</i>
         <p1 class="alignright">Aug 2010 - Dec 2014</p1>
-  </div>
-  </div>
+    <br>
+    <ft>You are visitor number <a class='vst' id='counter'></a></ft>
+    </div>
+    </div>
 </body>
 </html>
